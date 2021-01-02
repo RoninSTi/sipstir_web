@@ -8,6 +8,7 @@ import {
 
 import Home from './pages/home/home.component';
 import Privacy from './pages/privacy/privacy.component';
+import Terms from './pages/terms/terms.component'
 
 const App = () => {
   return (
@@ -15,6 +16,9 @@ const App = () => {
       <Switch>
         <Route path="/privacy">
           <Privacy />
+        </Route>
+        <Route path="/terms">
+          <Terms />
         </Route>
         <Route path="/">
           <Home />
