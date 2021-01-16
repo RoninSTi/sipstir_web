@@ -6,6 +6,9 @@ import {
   Route,
 } from "react-router-dom";
 
+import './App.scss'
+
+import Data from './pages/data/data.component'
 import Home from './pages/home/home.component';
 import Privacy from './pages/privacy/privacy.component';
 import Terms from './pages/terms/terms.component'
@@ -19,6 +22,9 @@ const App = () => {
         </Route>
         <Route path="/terms">
           <Terms />
+        </Route>
+        <Route path="/data">
+          <Data />
         </Route>
         <Route path="/">
           <Home />

@@ -1,5 +1,7 @@
 import React from 'react';
 
+import logo from '../../assets/images/barsnap_logo_only.png'
+
 const Home = () => {
   return (
     <div style={{
@@ -9,9 +11,9 @@ const Home = () => {
       height: '100vh',
       justifyContent: 'center',
     }}>
-      <img alt="logo" src={require('../../assets/images/barsnap_logo_only.png')} style={{ height: 'auto', width: '50%'}} />
+      <img alt="logo" src={logo} style={{ height: 'auto', width: '50%'}} />
     </div>
   );
 };
 
-export default Home;
+export default Home
